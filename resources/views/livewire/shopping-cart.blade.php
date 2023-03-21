@@ -37,7 +37,7 @@
 
                     <td class="text-center">
                         <span>{{ $item->price }} &euro;</span>
-                        <a dusk="bomb" class="ml-6 cursor-pointer hover:text-red-600"
+                        <a  class="ml-6 cursor-pointer hover:text-red-600" dusk="bomb"
                            wire:click="delete('{{ $item->rowId }}')"
                            wire:loading.class="text-red-600 opacity-25"
                            wire:target="delete('{{ $item->rowId }}')">
@@ -64,8 +64,8 @@
             </tbody>
         </table>
 
-        <a dusk="omb" class="text-sm cursor-pointer hover:underline mt-3 inline-block"
-           wire:click="destroy">
+        <a  class="text-sm cursor-pointer hover:underline mt-3 inline-block"
+           wire:click="destroy" dusk="omb">
             <i class="fas fa-trash"></i>
             Borrar carrito de compras
         </a>
