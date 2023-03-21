@@ -29,6 +29,7 @@
                 wire:target="addItem"
                 class="w-full"
                 color="orange"
+
                 dusk="añadir"
             >
                 Agregar al carrito de compras
